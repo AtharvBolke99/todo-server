@@ -8,7 +8,7 @@ app.use(cors());
 
 const PORT = 8080;
 
-const todo_item = ["learn React", "learn Express"];
+const todo_item = [];
 
 app.listen(PORT, () => {
   console.log(`Server is running on the port ${PORT}`);
