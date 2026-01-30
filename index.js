@@ -17,6 +17,13 @@ app.listen(PORT, () => {
 app.get("/", (req, res) => {
   res.json({
     status: "True",
+    message: "Welcome to the ToDO App",
+  });
+});
+
+app.get("/todos", (req, res) => {
+  res.json({
+    status: "True",
     data: todo_item,
     message: "ToDo items fetched successfully",
   });
